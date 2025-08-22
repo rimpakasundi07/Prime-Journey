@@ -85,7 +85,7 @@
     <!-- Best Destinations around the world section end here -->
 
     <!-- We Offer Best Services section start here -->
-    <section class="w-11/12 mx-auto py-15">
+    <section class="w-11/12 mx-auto py-5 lg:py-15">
       <div class="text-center space-y-3">
         <p class="text-lg">CATEGORY</p>
         <p class="font-semibold text-2xl lg:text-4xl text-[#3B556A]">
@@ -129,7 +129,7 @@
           <div class="rounded-b-2xl">
             <div class="w-11/12 mx-auto py-4 space-y-3">
               <div class="flex justify-between items-center">
-                <p>Rome, Italty</p>
+                <p>London,UK</p>
                 <p>$5,42k</p>
               </div>
               <div class="flex items-center gap-3">
@@ -152,7 +152,7 @@
           <div class="rounded-b-2xl">
             <div class="w-11/12 mx-auto py-4 space-y-3">
               <div class="flex justify-between items-center">
-                <p>Rome, Italty</p>
+                <p>Euorope</p>
                 <p>$5,42k</p>
               </div>
               <div class="flex items-center gap-3">
@@ -168,7 +168,9 @@
 
     <!-- Book your next section start here -->
     <section>
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 w-11/12 mx-auto">
+      <div
+        class="grid grid-cols-1 lg:grid-cols-2 gap-5 w-11/12 mx-auto lg::py-10"
+      >
         <div>
           <b>Easy and Fast</b>
           <p class="text-2xl lg:text-5xl pt-3 text-[#3B556A]">
@@ -215,32 +217,61 @@
         </div>
 
         <div class="">
-          <div class="shadow-2xl rounded-2xl p-5">
-            <div><img src="assets/Rectangle 17.jpg" alt="" /></div>
-            <div>
-              <p class="pt-4">Trip To Greece</p>
-              <p class="text-gray-500 pt-4">18 - 28 june | by Robbin joseph</p>
-            </div>
-            <div class="flex items-center pt-4 gap-6">
-              <img src="assets/LEAF.png" alt="" />
-              <img src="assets/map 1.png" alt="" />
-              <img src="assets/send 2.png" alt="" />
-            </div>
+          <div
+            class="max-w-sm mx-auto bg-white rounded-2xl p-5 shadow-lg overflow-hidden"
+          >
+            <img
+              class="w-full h-48 object-cover rounded-2xl"
+              src="assets/Rectangle 17.jpg"
+              alt="Trip to Greece"
+            />
 
-            <div class="flex gap-12 pt-4">
-              <div class="flex items-center gap-5">
-                <div><img src="assets/building 1.png" alt="" /></div>
-                <div><p>24 people going</p></div>
+            <div class="p-4">
+              <h2 class="font-semibold text-lg text-gray-800">
+                Trip To Greece
+              </h2>
+              <p class="text-gray-500 text-sm">14–29 June | by Robbin joseph</p>
+
+              <div class="flex items-center justify-between mt-4">
+                <p class="text-gray-500 text-sm">👥 24 people going</p>
+                <button class="text-gray-400 hover:text-red-500 text-xl">
+                  ♡
+                </button>
               </div>
-
-              <div><img src="assets/heart (6) 1.png" alt="" /></div>
-
-              <div></div>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- Book your next section end here -->
+
+    <!-- What people say about Us. start here-->
+    <section class="w-10/12 lg:py-15 py-5 mx-auto flex items-center">
+      <div class="space-y-3">
+        <p class="text-xl lg:text-5xl text-[#216297]">
+          What people say<br />about Us.
+        </p>
+      </div>
+      <div class="max-w-md mx-auto bg-white shadow-lg rounded-2xl p-6">
+        <p class="text-gray-600 italic">
+          “On the Windows talking painted pasture yet its express parties use.
+          Sure last upon he same as knew next. Of believed or diverted no.”
+        </p>
+
+        <div class="flex items-center mt-6">
+          <img
+            src="https://i.pravatar.cc/80?img=32"
+            alt="User"
+            class="w-12 h-12 rounded-full border-2 border-white shadow-md"
+          />
+          <div class="ml-3">
+            <p class="font-semibold text-gray-800">Mike taylor</p>
+            <p class="text-gray-500 text-sm">Lahore, Pakistan</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What people say about Us. end here-->
   </body>
 </html>
